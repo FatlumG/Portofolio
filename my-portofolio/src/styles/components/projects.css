@@ -1,0 +1,30 @@
+.projects-section {
+  height: 100vh;
+  padding: 0 100px;
+}
+
+.projects-section img {
+  left: 0;
+}
+
+.projects-section h3 {
+  margin-top: 100px;
+}
+
+.projects-section .projects {
+  margin-top: 100px;
+}
+
+.project {
+  height: 300px;
+  background-color: var(--bg-secondary);
+}
+
+.project img {
+  width: 450px;
+  border-radius: 10px;
+}
+
+.interested {
+  height: 200px !important;
+}
