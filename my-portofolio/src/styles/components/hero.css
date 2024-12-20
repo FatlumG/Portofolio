@@ -1,0 +1,48 @@
+@import url("../variables.css");
+
+.hero {
+  height: 85vh;
+  padding: 0 100px;
+}
+
+.hero h1 {
+  font-size: 3.6rem;
+}
+
+.hero-text .fg {
+  color: var(--purple);
+}
+
+.line {
+  height: 3px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.hero-imgs img {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+}
+
+.contacts {
+  bottom: 40px;
+  right: 100px;
+}
+
+.contacts a {
+  width: 50px;
+  height: 50px;
+}
+
+.contacts a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: hsla(251, 100%, 67%, 0.1);
+  transition: all 0.5s ease;
+}
+
+.contacts a img:hover {
+  transform: rotate(360deg);
+}
