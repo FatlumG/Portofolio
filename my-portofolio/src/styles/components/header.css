@@ -27,3 +27,7 @@
 .nav-bar li:hover::after {
   width: 80%;
 }
+
+.nav-bar li a{
+  cursor: pointer;
+} 

@@ -9,7 +9,7 @@ import "../styles/components/whyHireMe.css";
 
 function WhyHireMe() {
   return (
-    <div className="why-hire-me pt-5">
+    <div id="blog" className="why-hire-me pt-5">
       <img
         src={whyHireMe}
         alt="My Projects Background"

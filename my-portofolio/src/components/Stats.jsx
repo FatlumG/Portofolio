@@ -3,7 +3,7 @@ import "../styles/components/stats.css";
 
 function Stats() {
   return (
-    <div className="stats d-flex justify-content-center align-items-center gap-3 text-white">
+    <div id="about" className="stats d-flex justify-content-center align-items-center gap-3 text-white">
       <div className="statistic d-flex flex-column justify-content-center align-items-center">
         <h2 className="fs-1 fw-bold">4.5</h2>
         <p>Stars Rating</p>

@@ -5,6 +5,7 @@ import Stats from "../components/Stats";
 import Projects from "../components/Projects";
 import WhyHireMe from "../components/WhyHireMe";
 import ToolsAndSkills from "../components/ToolsAndSkills";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Projects />
       <WhyHireMe />
       <ToolsAndSkills />
+      <Footer/>
     </div>
   );
 }

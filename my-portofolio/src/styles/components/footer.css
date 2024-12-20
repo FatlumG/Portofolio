@@ -1,0 +1,5 @@
+.footer {
+  background-color: var(--bg-secondary);
+  height: 50vh;
+  padding: 0 100px;
+}

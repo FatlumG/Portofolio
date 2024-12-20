@@ -10,7 +10,7 @@ import "../styles/components/hero.css";
 
 function Hero() {
   return (
-    <div className="hero d-flex py-5 position-relative">
+    <div id="home" className="hero d-flex py-5 position-relative">
       <div className="hero-text w-50 py-5">
         <h3 className="text-white">Hello Everyone</h3>
         <h1 className="text-white">

@@ -10,26 +10,31 @@ function Header() {
       </h2>
       <ul className="nav-bar d-flex justify-content-center align-items-center gap-5 m-0 list-unstyled">
         <li className="position-relative py-1 px-2">
-          <a href="#" className="text-decoration-none text-white fw-bold">
+          <a href="#home" className="text-decoration-none text-white fw-bold">
             Home
           </a>
         </li>
         <li className="position-relative py-1 px-2">
-          <a href="#" className="text-decoration-none text-white fw-bold">
+          <a href="#about" className="text-decoration-none text-white fw-bold">
             About
           </a>
         </li>
         <li className="position-relative py-1 px-2">
-          <a href="#" className="text-decoration-none text-white fw-bold">
+          <a
+            href="#projects"
+            className="text-decoration-none text-white fw-bold"
+          >
             Projects
           </a>
         </li>
         <li className="position-relative py-1 px-2">
-          <a href="#" className="text-decoration-none text-white fw-bold">
+          <a href="#blog" className="text-decoration-none text-white fw-bold">
             Blog
           </a>
         </li>
-        <HeaderBtn variant="header">Contact Me</HeaderBtn>
+        <a href="#footer">
+          <HeaderBtn variant="header">Contact Me</HeaderBtn>
+        </a>
       </ul>
     </header>
   );

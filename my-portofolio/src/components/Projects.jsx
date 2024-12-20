@@ -8,7 +8,7 @@ import "../styles/components/projects.css";
 
 function Projects() {
   return (
-    <div className="projects-section pt-5">
+    <div id="projects" className="projects-section pt-5">
       <img
         src={myProjects}
         alt="My Projects Background"
