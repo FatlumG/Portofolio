@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Stats from "../components/Stats";
 import Projects from "../components/Projects";
 import WhyHireMe from "../components/WhyHireMe";
+import ToolsAndSkills from "../components/ToolsAndSkills";
 
 function Home() {
   return (
@@ -12,7 +13,8 @@ function Home() {
       <Hero />
       <Stats />
       <Projects />
-      <WhyHireMe/>
+      <WhyHireMe />
+      <ToolsAndSkills />
     </div>
   );
 }

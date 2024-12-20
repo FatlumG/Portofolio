@@ -1,0 +1,25 @@
+.tools-and-skills {
+  height: 80vh;
+  padding: 0 100px;
+}
+
+.tools-and-skills img {
+  left: 0;
+  user-select: none;
+}
+
+.tools-and-skills h3 {
+  margin-top: 100px;
+}
+
+.tools-and-skills-container {
+  margin-top: 180px;
+}
+
+.skill img {
+  width: 70px;
+}
+
+.skill svg {
+  fill: white;
+}
