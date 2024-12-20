@@ -1,0 +1,29 @@
+@import url("../components/header.css");
+
+.header {
+  height: 15vh;
+  width: 100%;
+  padding: 0 100px;
+  background-color: var(--bg-secondary);
+}
+
+.header span {
+  color: var(--purple);
+}
+
+.nav-bar li::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background: var(--purple);
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+.nav-bar li:hover::after {
+  width: 80%;
+}
