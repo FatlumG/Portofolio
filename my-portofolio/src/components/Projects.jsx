@@ -13,6 +13,7 @@ function Projects() {
         src={myProjects}
         alt="My Projects Background"
         className="mt-5 position-absolute"
+        draggable="false"
       />
       <h3 className="text-center text-white fs-2 text-capitalize">
         Latest projects

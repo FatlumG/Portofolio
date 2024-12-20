@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Stats from "../components/Stats";
 import Projects from "../components/Projects";
+import WhyHireMe from "../components/WhyHireMe";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <Stats />
       <Projects />
+      <WhyHireMe/>
     </div>
   );
 }
