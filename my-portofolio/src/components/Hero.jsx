@@ -27,7 +27,7 @@ function Hero() {
           acquiring the UI/UX design for dynamic application and web
           development.
         </p>
-        <div className="buttons d-flex gap-3">
+        <div className="buttons d-flex gap-3 mt-4">
           <HeaderBtn>Download CV</HeaderBtn>
           <HeaderBtn variant="white">More Info</HeaderBtn>
         </div>
