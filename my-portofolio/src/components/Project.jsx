@@ -2,7 +2,7 @@ import React from "react";
 import HeaderBtn from "./Button";
 import "../styles/components/projects.css";
 
-function Project({ addText, img, description, title, text }) {
+function Project({ addText, img, description, title, text, link }) {
   return (
     <div
       className={`project ${
@@ -27,7 +27,9 @@ function Project({ addText, img, description, title, text }) {
         >
           More Projects
         </HeaderBtn>
-        <HeaderBtn>View Details</HeaderBtn>
+        <a href={link}>
+          <HeaderBtn>Visit Project</HeaderBtn>
+        </a>
       </div>
     </div>
   );

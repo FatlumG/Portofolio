@@ -1,4 +1,13 @@
 import React from "react";
+// import {
+//   Modal,
+//   ModalContent,
+//   ModalHeader,
+//   ModalBody,
+//   ModalFooter,
+//   Button,
+//   useDisclosure,
+// } from "@nextui-org/modal";
 import HeaderBtn from "./Button";
 import purpleBg from "../assets/vectors/purpleBg.svg";
 import fadingCircle from "../assets/vectors/fadingCircle.svg";
@@ -6,9 +15,20 @@ import facebook from "../assets/icons/facebook.png";
 import instagram from "../assets/icons/instagram.png";
 import whatsapp from "../assets/icons/whatsapp.png";
 import linkedin from "../assets/icons/linkedin.png";
+import cv from "../assets/downloads/cv.pdf";
 import "../styles/components/hero.css";
 
 function Hero() {
+  // const { isOpen, onOpen, onClose } = useDisclosure();
+  // const [backdrop, setBackdrop] = React.useState("opaque");
+
+  // const backdrops = ["opaque", "blur", "transparent"];
+
+  // const handleOpen = (backdrop) => {
+  //   setBackdrop(backdrop);
+  //   onOpen();
+  // };
+
   return (
     <div id="home" className="hero d-flex py-5 position-relative">
       <div className="hero-text w-50 py-5">
@@ -28,8 +48,58 @@ function Hero() {
           development.
         </p>
         <div className="buttons d-flex gap-3 mt-4">
-          <HeaderBtn>Download CV</HeaderBtn>
-          <HeaderBtn variant="white">More Info</HeaderBtn>
+          <a href={cv} download="Fatlum Gërxhaliu CV">
+            <HeaderBtn>Download CV</HeaderBtn>{" "}
+          </a>
+          <HeaderBtn
+            // key={b}
+            // className="capitalize"
+            // color="warning"
+            // onPress={() => handleOpen(b)}
+            variant="white"
+          >
+            More Info
+          </HeaderBtn>
+          {/* <Modal backdrop={backdrop} isOpen={false} onClose={onClose}>
+            <ModalContent>
+              {(onClose) => (
+                <>
+                  <ModalHeader className="flex flex-col gap-1">
+                    Modal Title
+                  </ModalHeader>
+                  <ModalBody>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nullam pulvinar risus non risus hendrerit venenatis.
+                      Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nullam pulvinar risus non risus hendrerit venenatis.
+                      Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                    </p>
+                    <p>
+                      Magna exercitation reprehenderit magna aute tempor
+                      cupidatat consequat elit dolor adipisicing. Mollit dolor
+                      eiusmod sunt ex incididunt cillum quis. Velit duis sit
+                      officia eiusmod Lorem aliqua enim laboris do dolor
+                      eiusmod. Et mollit incididunt nisi consectetur esse
+                      laborum eiusmod pariatur proident Lorem eiusmod et. Culpa
+                      deserunt nostrud ad veniam.
+                    </p>
+                  </ModalBody>
+                  <ModalFooter>
+                    <Button color="danger" variant="light" onPress={onClose}>
+                      Close
+                    </Button>
+                    <Button color="primary" onPress={onClose}>
+                      Action
+                    </Button>
+                  </ModalFooter>
+                </>
+              )}
+            </ModalContent>
+          </Modal> */}
         </div>
       </div>
       <div className="hero-imgs w-50 d-flex justify-content-end position-relative">
@@ -48,16 +118,16 @@ function Hero() {
         <h3 className="text-white fs-5 fw-bold text-capitalize pe-3">
           Find me on
         </h3>
-        <a href="#">
+        <a href="https://www.facebook.com/fatlum.fatlum.716">
           <img src={facebook} alt="Facebook Icon" />
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/fatlum_gerxhaliu/">
           <img src={instagram} alt="Instagram Icon" />
         </a>
         <a href="#">
           <img src={whatsapp} alt="Whatsapp Icon" />
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/fatlum-g%C3%ABrxhaliu-053bba302/">
           <img src={linkedin} alt="LinkedIn Icon" />
         </a>
       </div>

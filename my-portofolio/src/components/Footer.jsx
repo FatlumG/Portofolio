@@ -6,7 +6,10 @@ import "../styles/components/footer.css";
 
 function Footer() {
   return (
-    <div id="footer" className="footer text-white d-flex justify-content-between py-5">
+    <div
+      id="footer"
+      className="footer text-white d-flex justify-content-between py-5"
+    >
       <div className="my-info">
         <h2>Get In Touch</h2>
         <p>For business and partnership inquiry please contact me below!</p>
@@ -25,6 +28,7 @@ function Footer() {
               <span>fatlumg03@gmail.com</span>
             </div>
           </div>
+          <p className="text-secondary m-2">&copy; 2024 Fatlum Gëxhaliu</p>
         </div>
       </div>
       <div className="footer-image">

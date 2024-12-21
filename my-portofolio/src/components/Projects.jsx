@@ -19,7 +19,11 @@ function Projects() {
         Latest projects
       </h3>
       <div className="projects d-flex flex-column gap-5">
-        <Project img={quickit} description="Quickit AI Dashboard website" />
+        <Project
+          img={quickit}
+          description="Quickit AI Dashboard website"
+          link="https://quickit.netlify.app"
+        />
         <Project img={netflix} description="Netflix Clone App " />
         <Project img={shopCo} description="Shop.co E-commerce website" />
         <Project
