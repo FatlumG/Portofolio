@@ -1,5 +1,5 @@
 .stats {
-  height: 60vh !important;
+  height: 60vh;
   width: 100%;
   background: url(../../assets/backgrounds/arrivalsBg.svg);
 }
@@ -15,4 +15,10 @@
 
 .stats .statistic:nth-child(2) {
   background-color: var(--purple);
+}
+
+@media screen and (max-width: 767px) {
+  .stats {
+    height: 100vh;
+  }
 }

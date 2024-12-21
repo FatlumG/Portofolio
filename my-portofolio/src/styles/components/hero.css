@@ -59,9 +59,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .hero {
-    height: 150vh !important;
+    height: 140vh !important;
   }
 
   .hero-imgs img {
@@ -77,7 +77,7 @@
 
   .contacts {
     right: 50%;
-    bottom: 100px;
+    bottom: 80px;
     transform: translateX(50%);
   }
 }
