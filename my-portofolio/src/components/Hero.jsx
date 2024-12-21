@@ -2,10 +2,10 @@ import React from "react";
 import HeaderBtn from "./Button";
 import purpleBg from "../assets/vectors/purpleBg.svg";
 import fadingCircle from "../assets/vectors/fadingCircle.svg";
-import facebook from "../assets/icons/facebook.png";
-import instagram from "../assets/icons/instagram.png";
-import whatsapp from "../assets/icons/whatsapp.png";
-import linkedin from "../assets/icons/linkedin.png";
+import facebook from "../assets/icons/facebook.svg";
+import instagram from "../assets/icons/instagram.svg";
+import github from "../assets/icons/githubIcon.svg";
+import linkedin from "../assets/icons/linkedin.svg";
 import cv from "../assets/downloads/cv.pdf";
 import "../styles/components/hero.css";
 
@@ -62,8 +62,8 @@ function Hero() {
           <a href="https://www.instagram.com/fatlum_gerxhaliu/">
             <img src={instagram} alt="Instagram Icon" />
           </a>
-          <a href="#">
-            <img src={whatsapp} alt="Whatsapp Icon" />
+          <a href="https://github.com/FatlumG">
+            <img src={github} alt="Whatsapp Icon" />
           </a>
           <a href="https://www.linkedin.com/in/fatlum-g%C3%ABrxhaliu-053bba302/">
             <img src={linkedin} alt="LinkedIn Icon" />

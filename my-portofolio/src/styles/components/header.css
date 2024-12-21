@@ -28,6 +28,81 @@
   width: 80%;
 }
 
-.nav-bar li a{
+.nav-bar li a {
   cursor: pointer;
-} 
+}
+
+/* SIDEBAR */
+.sidebar {
+  height: 100vh;
+  width: 100vw;
+  left: 110%;
+  top: 0;
+  opacity: 1;
+  background-color: var(--bg-secondary);
+  z-index: 100;
+
+  transition: all 500ms ease-out, opacity 300ms ease-out;
+}
+
+.sidebar.show {
+  left: 0;
+  opacity: 1;
+}
+
+.sidebar .exit-icon,
+.sidebar .nav-item {
+  opacity: 0;
+  transform: translateX(20px);
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.sidebar.show .exit-icon {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 100ms;
+}
+
+.sidebar.show .nav-item:nth-child(1) {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 250ms;
+}
+
+.sidebar.show .nav-item:nth-child(2) {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 400ms;
+}
+
+.sidebar.show .nav-item:nth-child(3) {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 550ms;
+}
+
+.sidebar.show .nav-item:nth-child(4) {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 700ms;
+}
+
+.sidebar.show .nav-item:nth-child(5) {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 850ms;
+}
+/* SIDEBAR - END */
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    padding: 0 20px;
+  }
+}

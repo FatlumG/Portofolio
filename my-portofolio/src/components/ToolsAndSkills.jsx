@@ -8,7 +8,7 @@ import tailwind from "../assets/skills/tailwindIcon.svg";
 import javascript from "../assets/skills/javascriptIcon.svg";
 import react from "../assets/skills/reactIcon.svg";
 import mysql from "../assets/skills/mysqlIcon.svg";
-import github from "../assets/skills/githubIcon.svg";
+import github from "../assets/skills/github.svg";
 import figma from "../assets/skills/figmaIcon.svg";
 import "../styles/components/toolsAndSkills.css";
 
