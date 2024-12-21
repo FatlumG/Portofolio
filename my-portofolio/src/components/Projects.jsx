@@ -24,13 +24,12 @@ function Projects() {
           description="Quickit AI Dashboard website"
           link="https://quickit.netlify.app"
         />
-        <Project img={netflix} description="Netflix Clone App " />
+        <Project img={netflix} description="Netflix Clone App | Movie App" />
         <Project img={shopCo} description="Shop.co E-commerce website" />
         <Project
           addText={true}
           title="Have any project in mind?"
           text="I'm available frelancing!"
-          description="Shop.co E-commerce website"
         />
       </div>
     </div>

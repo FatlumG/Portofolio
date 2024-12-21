@@ -1,5 +1,5 @@
 .why-hire-me {
-  height: 100vh;
+  height: auto;
   padding: 0 100px;
 }
 
@@ -33,4 +33,11 @@
   background-color: var(--purple-light);
   border: 1px solid var(--purple);
   border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .why-hire-me {
+    height: auto;
+    padding: 0 50px;
+  }
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import Chat from "../assets/icons/chat.png";
 import "../styles/components/whyHireMe.css";
 
 function HiringReason({ img, title, text, style }) {
@@ -13,7 +12,7 @@ function HiringReason({ img, title, text, style }) {
         </div>
       </div>
       <h3 className="text-white text-center mt-3">{title}</h3>
-      <p className="text-secondary text-left px-4">{text}</p>
+      <p className="text-secondary text-left">{text}</p>
     </div>
   );
 }

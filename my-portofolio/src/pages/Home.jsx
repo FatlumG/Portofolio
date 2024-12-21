@@ -16,7 +16,7 @@ function Home() {
       <Projects />
       <WhyHireMe />
       <ToolsAndSkills />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
