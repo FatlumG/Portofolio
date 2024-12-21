@@ -22,7 +22,7 @@
 .hero-imgs img {
   position: absolute;
   top: 80px;
-  right: 50px;
+  right: 0px;
 }
 
 .contacts {
@@ -45,4 +45,39 @@
 
 .contacts a img:hover {
   transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .hero {
+    height: auto !important;
+    padding: 0 50px;
+  }
+
+  .contacts {
+    bottom: 40px;
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 150vh !important;
+  }
+
+  .hero-imgs img {
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero {
+    padding: 0 20px;
+  }
+
+  .contacts {
+    right: 50%;
+    bottom: 100px;
+    transform: translateX(50%);
+  }
 }
