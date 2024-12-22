@@ -23,7 +23,7 @@ function ToolsAndSkills() {
       <h3 className="text-center text-white fs-2 text-capitalize">
         Tools and Skills
       </h3>
-      <div className="tools-and-skills-container d-flex flex-wrap gap-5 justify-content-between">
+      <div className="tools-and-skills-container d-flex flex-wrap gap-5 justify-content-center">
         <Skill img={html} />
         <Skill img={css} />
         <Skill img={bootstrap} />
