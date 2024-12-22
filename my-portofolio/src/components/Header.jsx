@@ -106,10 +106,10 @@ function Header() {
             Blog
           </a>
         </li>
-        <a href="#footer">
+        <a href="#footer" className="nav-item">
           <HeaderBtn
             variant="header"
-            className="d-inline-block d-sm-none"
+            className=" d-inline-block d-sm-none"
             onClick={toggleSidebar}
           >
             Contact Me

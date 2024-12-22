@@ -36,12 +36,14 @@ function Project({
           {description}
         </h3>
         <div className="d-flex justify-content-center gap-3">
-          <HeaderBtn
-            variant="white"
-            className={` ${addText ? "d-block" : "d-none"}`}
-          >
-            More Projects
-          </HeaderBtn>
+          <a>
+            <HeaderBtn
+              variant="white"
+              className={` ${addText ? "d-inline-block" : "d-none"}`}
+            >
+              More Projects
+            </HeaderBtn>
+          </a>
           <a href={link}>
             <HeaderBtn>{emailOrVisit}</HeaderBtn>
           </a>

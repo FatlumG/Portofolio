@@ -93,6 +93,13 @@
   transform: translateX(0);
   transition-delay: 850ms;
 }
+
+.sidebar.show .nav-item:nth-child(6) {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 1s;
+}
+
 /* SIDEBAR - END */
 
 @media screen and (max-width: 1200px) {

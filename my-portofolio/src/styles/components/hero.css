@@ -21,7 +21,6 @@
 
 .hero-imgs img {
   position: absolute;
-  top: 80px;
   right: 0px;
 }
 
@@ -47,6 +46,20 @@
   transform: rotate(360deg);
 }
 
+.more-info-modal {
+  height: fit-content !important;
+  width: 600px;
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-secondary);
+  color: var(--white);
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 24;
+}
+
 @media screen and (max-width: 1200px) {
   .hero {
     height: auto !important;
@@ -57,6 +70,10 @@
     bottom: 40px;
     right: 50px;
   }
+
+  .hero-imgs img {
+    top: 70px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -66,18 +83,36 @@
 
   .hero-imgs img {
     right: 50%;
-    transform: translateX(50%);
+    top: -40px;
+    transform: translateX(50%) scale(0.9);
+  }
+
+  .more-info-modal {
+    top: 80%;
+    width: 430px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .hero {
+    height: 135vh !important;
     padding: 0 20px;
   }
 
   .contacts {
     right: 50%;
-    bottom: 80px;
+    bottom: 50px;
     transform: translateX(50%);
+  }
+
+  .more-info-modal {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .hero-imgs img {
+    right: 50%;
+    top: 0;
+    transform: translateX(50%) scale(1);
   }
 }
