@@ -5,6 +5,7 @@
 
 .projects-section img {
   left: 0;
+  max-width: 100%;
 }
 
 .projects-section h3 {

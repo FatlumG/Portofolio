@@ -7,6 +7,6 @@ body {
   padding: 0 !important;
   box-sizing: border-box;
   font-family: "DM Sans", serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background-color: var(--bg-primary) !important;
 }

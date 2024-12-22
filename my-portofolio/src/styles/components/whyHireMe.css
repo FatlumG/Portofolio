@@ -10,6 +10,7 @@
 .why-hire-me img {
   left: 0;
   user-select: none;
+  max-width: 100%;
 }
 
 .why-hire-me .hiring-reasons {

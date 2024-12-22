@@ -6,6 +6,7 @@
 .tools-and-skills img {
   left: 0;
   user-select: none;
+  max-width: 100%;
 }
 
 .tools-and-skills h3 {
