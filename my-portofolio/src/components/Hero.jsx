@@ -7,7 +7,7 @@ import facebook from "../assets/icons/facebook.svg";
 import instagram from "../assets/icons/instagram.svg";
 import github from "../assets/icons/githubIcon.svg";
 import linkedin from "../assets/icons/linkedin.svg";
-import cv from "../assets/downloads/cv.pdf";
+import cv from "../assets/downloads/Fatlum Gërxhaliu Cv.pdf";
 import heroImage from "../assets/images/heroImage.jpg";
 import "../styles/components/hero.css";
 

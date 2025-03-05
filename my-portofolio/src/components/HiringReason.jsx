@@ -7,7 +7,7 @@ function HiringReason({ img, title, text, style }) {
       className={`hiring-reason d-flex flex-column align-items-center ${style}`}
     >
       <div className="outer-border d-flex justify-content-center align-items-center me-3">
-        <div className="inner-border d-flex justify-content-center align-items-center">
+        <div className="reason-img inner-border d-flex justify-content-center align-items-center">
           <img src={img} alt="" className="w-25 h-25" />
         </div>
       </div>

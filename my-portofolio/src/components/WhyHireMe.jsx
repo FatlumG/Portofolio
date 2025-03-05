@@ -18,9 +18,9 @@ function WhyHireMe() {
       <h3 className="text-center text-white fs-2 text-capitalize">
         Why Hire Me
       </h3>
-      <div className="hiring-reasons px-3 px-lg-5 px-xl-0 row gap-5 justify-content-between">
+      <div className="hiring-reasons px-3 px-lg-5 px-xl-0 row gap-5 justify-content-between ">
         <HiringReason
-          style="col-12 col-md-5 col-lg-5 col-xl-2"
+          style="col-12 col-md-5 col-lg-5 col-xl-2 place-self-center"
           img={bagClock}
           title="Hardworker"
           text="I’m a kind of person who can’t just stand around and doing nothing. I have a tendency to do something productive."
