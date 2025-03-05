@@ -1,0 +1,58 @@
+.why-hire-me {
+  height: auto;
+  padding: 0 100px;
+}
+
+.why-hire-me h3 {
+  margin-top: 100px;
+}
+
+.why-hire-me img {
+  left: 0;
+  user-select: none;
+  max-width: 100%;
+}
+
+.why-hire-me .hiring-reasons {
+  margin-top: 100px;
+}
+
+.hiring-reason p {
+  word-wrap: break-word;
+}
+
+.hiring-reason .outer-border {
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--dark-gray);
+  border-radius: 50%;
+}
+
+.outer-border .inner-border {
+  width: 85%;
+  height: 85%;
+  background-color: var(--purple-light);
+  border: 1px solid var(--purple);
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .why-hire-me {
+    height: auto;
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hiring-reason .outer-border {
+    width: 160px;
+    height: 160px;
+    border: 1px solid var(--dark-gray);
+    border-radius: 50%;
+  }
+
+  .reason-img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}

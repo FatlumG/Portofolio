@@ -1,0 +1,33 @@
+.tools-and-skills {
+  height: auto;
+  padding: 0 100px;
+}
+
+.tools-and-skills img {
+  left: 0;
+  user-select: none;
+  max-width: 100%;
+}
+
+.tools-and-skills h3 {
+  margin-top: 100px;
+}
+
+.tools-and-skills-container {
+  margin-top: 110px !important;
+}
+
+.skill img {
+  width: 70px;
+}
+
+.skill svg {
+  fill: white;
+}
+
+@media screen and (max-width: 415px) {
+  .tools-and-skills {
+    height: auto;
+    padding: 0 50px;
+  }
+}
