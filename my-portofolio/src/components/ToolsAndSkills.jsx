@@ -6,6 +6,7 @@ import css from "../assets/skills/cssIcon.svg";
 import bootstrap from "../assets/skills/bootstrapIcon.svg";
 import tailwind from "../assets/skills/tailwindIcon.svg";
 import javascript from "../assets/skills/javascriptIcon.svg";
+import typescript from "../assets/skills/typescript.svg";
 import react from "../assets/skills/reactIcon.svg";
 import redux from "../assets/skills/redux.svg";
 import firebase from "../assets/skills/firebase.svg";
@@ -35,6 +36,7 @@ function ToolsAndSkills() {
         <Skill img={bootstrap} />
         <Skill img={tailwind} />
         <Skill img={javascript} />
+        <Skill img={typescript} />
         <Skill img={react} />
         <Skill img={redux} />
         <Skill img={firebase} />

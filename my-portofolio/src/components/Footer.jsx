@@ -28,7 +28,7 @@ function Footer() {
               <span>fatlumg03@gmail.com</span>
             </div>
           </div>
-          <p className="text-secondary m-2 text-center text-sm-start">&copy; 2024 Fatlum Gëxhaliu</p>
+          <p className="text-secondary m-2 text-center text-sm-start">&copy; 2025 Fatlum Gëxhaliu</p>
         </div>
       </div>
       <div className="footer-image ps-5 d-flex justify-content-center">
