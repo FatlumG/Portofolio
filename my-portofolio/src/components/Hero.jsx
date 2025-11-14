@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
@@ -7,7 +7,7 @@ import facebook from "../assets/icons/facebook.svg";
 import instagram from "../assets/icons/instagram.svg";
 import github from "../assets/icons/githubIcon.svg";
 import linkedin from "../assets/icons/linkedin.svg";
-import cv from "../assets/downloads/Fatlum Gërxhaliu Cv.pdf";
+import cv from "../assets/downloads/Fatlum Resume.pdf";
 import heroImage from "../assets/images/heroImage.jpg";
 import "../styles/components/hero.css";
 
@@ -30,16 +30,15 @@ function Hero() {
         <h1 className="text-white fs-1">
           I am <span className="fg">Fatlum Gëxhaliu</span>
         </h1>
-        <h6 className="text-secondary">Front-end Developer</h6>
+        <h6 className="text-secondary">Full-stack Developer</h6>
         <div className="line mt-3 mt-lg-4 mb-1 mb-lg-2 bg-secondary"></div>
         <p className="text-secondary fs-6">
-          I am a passionate front-end developer with a strong foundation in
-          HTML, CSS, and JavaScript, continually striving to expand my knowledge
-          and skills. I take pride in crafting clean, efficient, and visually
-          appealing user interfaces, ensuring a seamless and engaging experience
-          for users. Currently, I am honing my expertise in React to create
-          dynamic, interactive applications and exploring UI/UX design to
-          enhance my ability to deliver professional and user-focused solutions.
+          I’m a passionate Full Stack Developer specializing in the MERN stack
+          with strong knowledge of MySQL. I love building dynamic, user-focused
+          applications that blend functionality with clean design. Currently,
+          I’m pursuing a degree in Computer and Electrical Engineering at the
+          University of Prishtina, while also learning Java and C++ to
+          strengthen my backend and programming skills.
         </p>
         <div className="buttons d-flex gap-3 mt-4">
           <a href={cv} download="Fatlum Gërxhaliu CV">
@@ -60,19 +59,25 @@ function Hero() {
                 More about me
               </h2>
               <p id="parent-modal-description">
-                Currently, I am in the final stages of middle school at SHMT
-                Lutfi Musiqi and enrolled in a course named Coding Training
-                Academy, which has significantly enhanced my programming
-                knowledge and practical skills.
+                A highly motivated and recently qualified Full-Stack MERN
+                Developer with a strong foundation in computer science and
+                modern development methodologies. Having successfully completed
+                high school at SHMT Lutfi Musiqi and intensive training at
+                Coding Training Academy, Speeex education and UDEMY, I possess
+                hands-on expertise in building dynamic, end-to-end web
+                applications.
                 <br />
                 <br />
-                This course focuses on real-world coding practice, allowing me
-                to work on projects that mimic professional programming
-                environments using modern technologies like Discord, GitHub,
-                Trello, etc. I have learned React, built dynamic applications,
-                and gained valuable experience in solving practical challenges
-                while expanding my understanding of modern development
-                techniques.
+                My technical specialization is the MERN stack (MongoDB, Express,
+                React, Node.js), complemented by proficiency in MySQL, Java, and
+                C++ to ensure robust backend and programming foundations.
+                <br />
+                <br />
+                All training focused on real-world coding practice, utilizing
+                professional collaboration tools like GitHub, Trello, and
+                Discord to deliver project-based solutions. I am eager to
+                leverage this comprehensive skill set to contribute to a
+                professional development team.
               </p>
               <Button onClick={handleClose}>Close</Button>
             </Box>
@@ -81,6 +86,7 @@ function Hero() {
       </div>
       <div className="hero-imgs w-100 d-flex justify-content-end position-relative">
         <img src={heroImage} alt="Hero image" className="w-75" />
+        {/* <Image /> */}
       </div>
 
       <div className="contacts position-absolute d-flex flex-column flex-lg-row justify-content-between gap-3">
