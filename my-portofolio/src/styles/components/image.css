@@ -1,0 +1,14 @@
+.image-layout {
+  width: 200px;
+  height: 200px;
+}
+
+.image-layout .image {
+}
+
+.image-layout .dev {
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+  border-radius: 20px;
+}

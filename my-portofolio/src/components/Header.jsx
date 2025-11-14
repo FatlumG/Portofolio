@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import HeaderBtn from "./Button";
 import { FiAlignJustify } from "react-icons/fi";
 import { MdOutlineExitToApp } from "react-icons/md";
+import { Link } from "react-router-dom";
 import "../styles/components/header.css";
 
 function Header() {
@@ -14,9 +15,9 @@ function Header() {
 
   return (
     <header className="header d-flex justify-content-between align-items-center">
-      <h2 className="text-white">
-        Lum<span>Gërxhaliu</span>
-      </h2>
+      <Link to="/vulum" className="text-white text-decoration-none fw-medium">
+        <span>VULUM</span>
+      </Link>
       <nav className="d-flex gap-5">
         <ul className="nav-bar d-none d-xl-flex justify-content-center align-items-center gap-5 m-0 list-unstyled">
           <li className="position-relative py-1 px-2">
