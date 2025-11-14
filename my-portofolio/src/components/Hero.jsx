@@ -7,9 +7,8 @@ import facebook from "../assets/icons/facebook.svg";
 import instagram from "../assets/icons/instagram.svg";
 import github from "../assets/icons/githubIcon.svg";
 import linkedin from "../assets/icons/linkedin.svg";
-import cv from "../assets/downloads/Fatlum Gërxhaliu Cv.pdf";
+import cv from "../assets/downloads/Fatlum Resume.pdf";
 import heroImage from "../assets/images/heroImage.jpg";
-import Image from "./Image";
 import "../styles/components/hero.css";
 
 function Hero() {
@@ -60,23 +59,25 @@ function Hero() {
                 More about me
               </h2>
               <p id="parent-modal-description">
-                I recently completed high school at SHMT Lutfi Musiqi and
-                finished a course at Coding Training Academy, which greatly
-                enhanced my programming knowledge and hands-on skills. I’ve also
-                taken several Udemy courses to further expand my expertise and
-                stay up-to-date with modern development technologies.
+                A highly motivated and recently qualified Full-Stack MERN
+                Developer with a strong foundation in computer science and
+                modern development methodologies. Having successfully completed
+                high school at SHMT Lutfi Musiqi and intensive training at
+                Coding Training Academy, Speeex education and UDEMY, I possess
+                hands-on expertise in building dynamic, end-to-end web
+                applications.
                 <br />
                 <br />
-                These experiences focused on real-world coding practice,
-                allowing me to work on projects that mimic professional
-                programming environments using tools like Discord, GitHub,
-                Trello, etc.
+                My technical specialization is the MERN stack (MongoDB, Express,
+                React, Node.js), complemented by proficiency in MySQL, Java, and
+                C++ to ensure robust backend and programming foundations.
                 <br />
                 <br />
-                Along the way, I also developed skills in full-stack
-                development, specializing in the MERN stack, working with MySQL,
-                and learning Java and C++ to strengthen my backend and
-                programming abilities.
+                All training focused on real-world coding practice, utilizing
+                professional collaboration tools like GitHub, Trello, and
+                Discord to deliver project-based solutions. I am eager to
+                leverage this comprehensive skill set to contribute to a
+                professional development team.
               </p>
               <Button onClick={handleClose}>Close</Button>
             </Box>
