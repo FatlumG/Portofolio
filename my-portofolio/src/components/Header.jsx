@@ -5,7 +5,7 @@ import { MdOutlineExitToApp } from "react-icons/md";
 import { Link } from "react-router-dom";
 import "../styles/components/header.css";
 
-function Header() {
+function Header({ away }) {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleSidebar = () => {
@@ -15,8 +15,11 @@ function Header() {
 
   return (
     <header className="header d-flex justify-content-between align-items-center">
-      <Link to="/vulum" className="text-white text-decoration-none fw-medium">
-        <span>VULUM</span>
+      <Link
+        to={away ? "/" : "/vulum"}
+        className="text-white text-decoration-none fw-medium"
+      >
+        <span>{away ? "Portofolio" : "VULUM"}</span>
       </Link>
       <nav className="d-flex gap-5">
         <ul className="nav-bar d-none d-xl-flex justify-content-center align-items-center gap-5 m-0 list-unstyled">
