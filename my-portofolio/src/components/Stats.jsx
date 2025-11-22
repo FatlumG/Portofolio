@@ -12,7 +12,7 @@ function Stats() {
       </div>
       <div className="statistic d-flex flex-column justify-content-center align-items-center">
         <h2 className="fs-1 fw-bold">2+</h2>
-        <p>
+        <p className="text-center">
           Key Skills: <b>Full-Stack</b> & <b>Networking</b>
         </p>
       </div>

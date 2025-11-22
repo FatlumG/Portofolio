@@ -48,7 +48,7 @@ function Hero() {
             More Info
           </HeaderBtn>
           <Modal
-            className="more-info-modal"
+            className="more-info-modal overflow-auto sm:overflow-hidden"
             open={open}
             onClose={handleClose}
             aria-labelledby="parent-modal-title"
