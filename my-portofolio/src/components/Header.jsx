@@ -14,55 +14,68 @@ function Header({ away }) {
   };
 
   return (
-    <header className="header d-flex justify-content-between align-items-center">
+    <header
+      className={`header d-flex justify-content-${
+        away ? "center" : "between"
+      } align-items-center`}
+    >
       <Link
         to={away ? "/" : "/vulum"}
         className="text-white text-decoration-none fw-medium"
       >
         <span>{away ? "Portofolio" : "VULUM"}</span>
       </Link>
-      <nav className="d-flex gap-5">
-        <ul className="nav-bar d-none d-xl-flex justify-content-center align-items-center gap-5 m-0 list-unstyled">
-          <li className="position-relative py-1 px-2">
-            <a href="#home" className="text-decoration-none text-white fw-bold">
-              Home
+      {away ? (
+        <></>
+      ) : (
+        <nav className="d-flex gap-5">
+          <ul className="nav-bar d-none d-xl-flex justify-content-center align-items-center gap-5 m-0 list-unstyled">
+            <li className="position-relative py-1 px-2">
+              <a
+                href="#home"
+                className="text-decoration-none text-white fw-bold"
+              >
+                Home
+              </a>
+            </li>
+            <li className="position-relative py-1 px-2">
+              <a
+                href="#about"
+                className="text-decoration-none text-white fw-bold"
+              >
+                About
+              </a>
+            </li>
+            <li className="position-relative py-1 px-2">
+              <a
+                href="#projects"
+                className="text-decoration-none text-white fw-bold"
+              >
+                Projects
+              </a>
+            </li>
+            <li className="position-relative py-1 px-2">
+              <a
+                href="#blog"
+                className="text-decoration-none text-white fw-bold"
+              >
+                Blog
+              </a>
+            </li>
+          </ul>
+          <div className="d-flex align-items-center gap-3">
+            <a href="#footer">
+              <HeaderBtn variant="header" className="d-none d-sm-inline-block">
+                Contact Me
+              </HeaderBtn>
             </a>
-          </li>
-          <li className="position-relative py-1 px-2">
-            <a
-              href="#about"
-              className="text-decoration-none text-white fw-bold"
-            >
-              About
-            </a>
-          </li>
-          <li className="position-relative py-1 px-2">
-            <a
-              href="#projects"
-              className="text-decoration-none text-white fw-bold"
-            >
-              Projects
-            </a>
-          </li>
-          <li className="position-relative py-1 px-2">
-            <a href="#blog" className="text-decoration-none text-white fw-bold">
-              Blog
-            </a>
-          </li>
-        </ul>
-        <div className="d-flex align-items-center gap-3">
-          <a href="#footer">
-            <HeaderBtn variant="header" className="d-none d-sm-inline-block">
-              Contact Me
-            </HeaderBtn>
-          </a>
-          <FiAlignJustify
-            onClick={toggleSidebar}
-            className="text-white fs-3 d-block d-xl-none"
-          />
-        </div>
-      </nav>
-
+            <FiAlignJustify
+              onClick={toggleSidebar}
+              className="text-white fs-3 d-block d-xl-none"
+            />
+          </div>
+        </nav>
+      )}
       <ul
         className={`sidebar ${
           isVisible ? "show" : ""
